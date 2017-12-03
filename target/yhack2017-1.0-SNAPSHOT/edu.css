@@ -1,0 +1,426 @@
+body{
+    margin:0px;
+    background-color:#F6F6Ef;
+    overflow-y: visible;
+    font-family: 'Raleway', sans-serif;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 30;
+	margin-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 1.8%;
+	letter-spacing: 1.2px;
+}
+#city {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 39;
+	padding-left: 3%;
+	letter-spacing: 1.1px;
+}
+.box {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 23%;
+	padding-left: 2%;
+	margin-left: 10%;
+	padding-bottom: 1%;
+	display: inline-block;
+}
+.box:nth-of-type(5) {
+	border-bottom: 1px solid black;
+}
+.head {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 16;
+	padding-top: 0.9%;
+}
+.bill {
+	padding-left: 55%;
+	font-size: 12;
+	font-weight: normal;
+	color:#bcbfc4;
+}
+.text {
+	padding-top: 2.5%;
+	width:60%;
+	word-wrap: break-word;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12;
+}
+.clicks {
+	float: right;
+	padding-top: 3%;
+	padding-left: -5%;
+	text-transform: capitalize;
+	padding-right: 5%;
+	transform: translate(-20px, -115px)
+}
+.date {
+	padding-top: 5%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12;
+	transform: translate(100px, -30px)
+}
+
+.hr {
+	margin-left: 10%;
+	bottom: 2%;
+	border-color: #bcbfc4;
+}
+#button2 {
+	transform: translate(100px,-30px);
+}
+.box:nth-of-type(4) {
+	margin-bottom: 3%;
+	border-bottom: 1px solid black;
+}
+select {
+		width: 90px;
+		height: 30px;
+		border-radius: 15px;
+		padding-left: 12px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 13px;
+		color:#bcbfc4;
+		transform: translate(120px,42px);
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+}
+.icolabel {
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24;
+	float: right;
+	padding-top: 2.3%;
+	padding-right: 0%;
+	padding-left: 10%;
+	position: absolute;
+	right: 87%;
+}
+img {
+	position: relative;
+}
+.headers {
+	float: right;
+	padding-top: 1.5%;
+	padding-right: 1%;
+	padding-left: 0%;
+}
+
+#btn2 {
+	border-radius: 8px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	background-color: #0182FF;
+	border-color: #0182FF;
+	outline: 0;
+	border:1.2px solid #0182FF;
+}
+#btn1 {
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	background-color: #F6F6Ef;
+	padding-top: 7%;
+
+}
+.boxbtn {
+	background-color: #F6F6Ef;
+	font-family: 'Raleway', sans-serif;
+	border-color: #dedfe0;
+	line-height: 2.5em;
+  	padding: 0 2.5em;
+	box-shadow: none;
+	outline: 0;
+	border:1.2px solid #dedfe0;
+	transition:.5s ease-in 0, 1.3s;
+}
+.boxbtn:nth-of-type(2) {
+	transform: translate(165px, -36px)
+}
+.boxbtn:hover {
+	transition: .5s ease-out; 
+	background-color:#73b4f4;/*#fff4aa;*/
+	border:1.25px solid black;
+
+}
+#hr {
+	margin-left: 8%;
+	margin-bottom: 1%;
+	border-color: #bcbfc4;
+}
+#hr1 {
+	border-color: #bcbfc4;
+}
+.btn3 {
+	border-radius: 8px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #0182FF;
+	border-color: #0182FF;
+	outline: 0;
+	border:1.2px solid #0182FF;
+}
+.footer {
+	margin-left: 4%;
+}
+.footer img {
+	position: relative;
+}
+.footerText {
+	padding-left:4%;
+	float: right;
+	margin-right: 9.5%;
+}
+.footerText li {
+	padding-top: 3%;
+}
+.footer strong {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.footerText li:nth-of-type(1) {
+	color: red;
+	position: relative;
+	right: 145%;
+}
+.footerText li:nth-of-type(2) {
+	color: red;
+	position: relative;
+	right: 135%;
+}
+.footerText li:nth-of-type(3) {
+	color: red;
+	position: relative;
+	right: 125%;
+}
+.footerText li:nth-of-type(4) {
+	color: red;
+	position: relative;
+	right: 115%;
+}
+.footerText li:nth-of-type(5) {
+	color: red;
+	position: relative;
+	right: 105%;
+}
+a:visited {
+	color: black;
+	text-decoration:none;
+	border-bottom:1px solid #bcbfc4;
+}
+a:link {
+	color:black;
+	text-decoration:none;
+	border-bottom:1px solid #bcbfc4;
+}
+/* The switch - the box around the slider */
+.switch {
+  margin-right: 0%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  z-index: 999;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left:0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.maincontent {
+	width:72%;
+	display: inline-block;
+}
+.sidecontent {
+	width:20%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.container {
+	padding-left: 3%;
+	padding-right: 5%;
+}
+#switch {
+	transform: translate(10px, 10px)
+}
+.leftside {
+	float: right;
+	width: 20%;
+	display: inline-block;
+	padding-top: 5%;
+	padding-left: 5%;
+
+}
+.rightside {
+	width: 75%;
+	display: inline-block;
+}
+.notifications {
+	display: inline-block;
+	padding-top: 20%;
+}
+.items {
+	padding-bottom: 10%;
+}
+.dates {
+	padding-bottom: 60%;
+}
+p {
+	transform: translate(70px, 0px);
+}
+hr {
+	border-color: #bcbfc4;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: -60%;
+    top: 0;
+    width: 200%; /* Full width */
+    height: 300%; /* Full height */
+    overflow:hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+
+#myModal {
+	float: none;
+	padding-left: 10px;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    left: 0;
+    top: 0;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+#Title{
+    text-align: center;
+}
+
+#billNum{
+    text-align: center;
+}
+
+#text{
+    text-align: center;
+}
+
+#Question{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.button4pop{
+    text-align: center;
+}
+
+#yesButton{
+
+    background-color: #4CAF50 ;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:white;
+}
+
+#noButton{
+
+    background-color: #ff0000 ;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:white;
+}

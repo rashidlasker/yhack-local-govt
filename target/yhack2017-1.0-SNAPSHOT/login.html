@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Collective</title>
+	<link rel="stylesheet" href="gallery.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+</head>
+<body>
+	<div class='nav'>
+		<ul>
+			<li> 
+				<img src="iconGov.png" height="75px" width="47px">
+				<h1 class='icolabel'>Collective.gov</h1>
+			</li>
+			<li class='headers'>
+				<button id='btn2' type='button'><strong>REGISTER</strong></button>
+			</li>
+			<li class='headers'>
+				<button id='btn1' type='button'><strong>LOG IN</strong></button>
+			</li>
+		</ul>
+	</div>
+	<div class='container'>
+		<hr id='hr1' width="100%" noshade>
+		<form>
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+              <br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <div class="img-container">
+                <label><b>Authentication Picture</b></label>
+              <div class="app">
+
+                <a href="#" id="start-camera" class="visible">Touch here to start the app.</a>
+                <video id="camera-stream"></video>
+                <img id="snap">
+
+                <p id="error-message"></p>
+
+                <div class="controls">
+                  <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
+                  <a href="#" id="take-photo" title="Take Photo"><i class="material-icons">camera_alt</i></a>
+                  <a href="#" id="download-photo" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>  
+                </div>
+
+                <!-- Hidden canvas element. Used for taking snapshot of video. -->
+                <canvas></canvas>
+
+              </div>
+                <br>
+                <br>
+                <div id="response-message"></div>
+            <button type="button"  class="cancelbtn boxbtn"><a href="index.html">Cancel</a></button>
+            <button class="boxbtn" ><a href="index.html">Log-in</a></button>
+        </form>
+	</div>
+	<hr id='hr' width="90%" style="margin: 50px auto 0 auto;" noshade>
+
+	<ul class='footer'>
+		<li> <img src='iconGov.png' height='50px' width='28px'></li>
+		<div class='footerText'>
+<!--
+			<li><a href="#">About</a></li>
+			<li><a href='#'>Contact</a></li>
+			<li><a href="#">.edu</a></li>
+			<li><a href='#'>.gov</a></li>
+			<li><button class='btn3' type="button">REGISTER</button></li>
+-->
+			<li><strong>Your vote counts.</strong></li>
+		</div>
+	</ul>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

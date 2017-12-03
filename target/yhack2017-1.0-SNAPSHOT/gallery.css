@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+    margin:0px;
+    background-color:#F6F6Ef;
+    overflow-y: visible;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:visited {
+    color: black;
+    text-decoration:none;
+    border-bottom:1px solid #bcbfc4;
+}
+a:link {
+    color:black;
+    text-decoration:none;
+    border-bottom:1px solid #bcbfc4;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.disp-none{
+    display: none !important;
+}
+/******************NAV***********************/
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+.icolabel {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24;
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+img {
+    position: relative;
+}
+.headers {
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 1%;
+    padding-left: 0%;
+}
+
+#btn2 {
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #0182FF;
+    border-color: #0182FF;
+    outline: 0;
+    border:1.2px solid #0182FF;
+}
+#btn1 {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: #F6F6Ef;
+    padding-top: 7%;
+
+}
+
+/******************TITLE***********************/
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 20pt;
+    padding-top: 1%;
+    padding-bottom: 50px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+#city {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    padding-left: 10px;
+    letter-spacing: 1.1px;
+}
+
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+/******************BOXES***********************/
+
+.maincontent {
+    width:70%;
+    display: inline-block;
+}
+
+.box {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding:5%;
+    display: inline-block;
+}
+.box:nth-of-type(4) {
+    border-bottom: 1px solid black;
+}
+.words{
+    width:60%;
+    display: inline-block;
+}
+.head {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+.bill {
+    //padding-left: 55%;
+    font-size: 12pt;
+    font-weight: normal;
+    color:#bcbfc4;
+    float:right;
+}
+.buttons{
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.boxbtn {
+    background-color: #F6F6Ef;
+    font-family: 'Raleway', sans-serif;
+    border-color: #dedfe0;
+    box-shadow: none;
+    outline: 0;
+    line-height: 2.5em;
+    padding: 0 2.5em;
+    border:1.2px solid #dedfe0;
+    transition:.5s ease-in 0, 1.3s;
+    margin-top: 10px;
+}
+.boxbtn:hover {
+    transition: .5s ease-out; 
+    //background-color:#73b4f4;/*#fff4aa;*/
+    border:1px solid black;
+
+}
+
+.date {
+    padding-top: 20px;
+}
+
+/******************MODAL***********************/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0%;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 300%; /* Full height */
+    overflow:hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+
+#myModal {
+    float: none;
+    padding-left: 10px;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    border: 1px solid #888;
+    width: 100%;
+    width: 50%;
+    top: 20vh;
+}
+
+#Title{
+    text-align: center;
+}
+#billNum{
+    text-align: center;
+}
+
+#text{
+    text-align: center;
+}
+
+#Question{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.button4pop{
+    text-align: center;
+}
+
+#yesButton{
+
+    background-color: #4CAF50 ;
+    margin-top: 15px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:white;
+}
+
+#noButton{
+
+    background-color: #ff0000 ;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color:white;
+}
+
+
+/******************SIDECONTENT***********************/
+.sidecontent {
+    width:20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/* The switch - the box around the slider */
+.switch {
+  margin-right: 0%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  z-index: 999;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left:0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#switch {
+    transform: translate(10px, 10px)
+}
+
+.leftside {
+    float: right;
+    width: 20%;
+    display: inline-block;
+    padding-left: 5%;
+
+}
+.rightside {
+    width: 75%;
+    display: inline-block;
+}
+.notifications {
+    display: inline-block;
+    padding-top: 20%;
+    text-decoration: underline;
+    
+}
+.notifications p {
+    text-align: right;
+    margin-bottom:20px;
+    font-size:20pt;
+}
+.items {
+    padding-bottom: 10%;
+}
+.dates {
+    padding-bottom: 60%;
+}
+
+select {
+        width: 90px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 12px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        color:#bcbfc4;
+        transform: translate(120px,42px);
+}
+
+/******************REGISTER***********************/
+
+form{
+    width:400px;
+    margin: 50px auto;
+}
+
+form input{
+    margin-bottom: 20px;
+}
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        h3{
+            font: normal 32px/1.5 'Open Sans', sans-serif;
+            color: #2c3e50;
+            margin: 50px 0;
+            text-align: center;
+        }
+
+
+        .img-container{
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #efefef;
+        }
+
+        .app{
+            width: 100%;
+            position: relative;
+        }
+
+        .app #start-camera{
+            display: none;
+            border-radius: 3px;
+            max-width: 400px;
+            color: #fff;
+            background-color: #448AFF;
+            text-decoration: none;
+            padding: 15px;
+            opacity: 0.8;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .app video#camera-stream{
+            display: none;
+            width: 100%;
+        }
+
+        .app img#snap{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+            display: none;
+        }
+
+        .app #error-message{
+            width: 100%;
+            background-color: #ccc;
+            color: #9b9b9b;
+            font-size: 28px;
+            padding: 200px 100px;
+            text-align: center;
+            display: none;
+        }
+
+        .app .controls{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 20;
+
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding: 30px;
+            display: none;
+        }
+
+        .app .controls a{
+            border-radius: 50%;
+            color: #fff;
+            background-color: #111;
+            text-decoration: none;
+            padding: 15px;
+            line-height: 0;
+            opacity: 0.7;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .app .controls a:hover{
+            opacity: 1;
+        }
+
+        .app .controls a.disabled{
+            background-color: #555;
+            opacity: 0.5;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .app .controls a.disabled:hover{
+            opacity: 0.5;
+        }
+
+        .app .controls a i{
+            font-size: 18px;
+        }
+
+        .app .controls #take-photo i{
+            font-size: 32px;
+        }
+
+        .app canvas{
+            display: none;
+        }
+
+
+
+        .app video#camera-stream.visible,
+        .app img#snap.visible,
+        .app #error-message.visible
+        {
+            display: block;
+        }
+
+        .app .controls.visible{
+            display: flex;
+        }
+
+
+
+        @media(max-width: 1000px){
+            .container{
+                margin: 40px;
+            }
+
+            .app #start-camera.visible{
+                display: block;
+            }
+
+            .app .controls a i{
+                font-size: 16px;
+            }
+
+            .app .controls #take-photo i{
+                font-size: 24px;
+            }
+        }
+
+
+        @media(max-width: 600px){
+            .container{
+                margin: 10px;
+            }
+
+            .app #error-message{
+                padding: 80px 50px;
+                font-size: 18px;
+            }
+
+            .app .controls a i{
+                font-size: 12px;
+            }
+
+            .app .controls #take-photo i{
+                font-size: 18px;
+            }
+        }
+
+/******************FOOTER***********************/
+
+.footer {
+    margin-left: 4%;
+}
+.footer img {
+    position: relative;
+}
+.footerText {
+    padding-left:4%;
+    float: right;
+    margin-right: 9.5%;
+}
+.footerText li {
+    padding-top: 3%;
+}
+.footer strong {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
