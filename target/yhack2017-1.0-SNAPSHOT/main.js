@@ -1,7 +1,7 @@
        // put your keys in the header
         // var headers = {
         //     "app_id"          : "ad48aba9",
-        //     "app_key"         : "fc67b8b3c454213c8e9dfc1dd3f7fa23"
+        //     "app_key"         : ""
         // };
         // var payload  = { "image" : "YOUR_IMAGE_URL" };
         // var url = "http://api.kairos.com/detect";
@@ -128,7 +128,7 @@
              var img = hidden_canvas.toDataURL('image/png');
              var headers = {
                  "app_id"          : "ad48aba9",
-                 "app_key"         : "fc67b8b3c454213c8e9dfc1dd3f7fa23"
+                 "app_key"         : "APIKEY"
              };
              var payload  = { "image" : img , "gallery_name":"MyGallery", "subject_id":"Rashid"};
              var url = "http://api.kairos.com/verify";
@@ -208,7 +208,7 @@
 //                }
 //              ]
 //            };
-//            var url = "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCbuE1d8_iL-oGh6WznMrpovgCjjLLJY18";
+//            var url = "https://vision.googleapis.com/v1/images:annotate?key=APIKEY";
 //            // make request 
 //            $.ajax(url, {
 //                headers  : headers,
